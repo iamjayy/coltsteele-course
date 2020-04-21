@@ -20,7 +20,13 @@ function isUniform(arr) {
   return true;
 }
 
-isUniform([1, 1, 1]);
-
 //write a function sumArray that accepts an array
 //of numbers and returns the sum of all numbers in the array
+
+function sumArray(arr) {
+  var total = 0;
+  arr.forEach(function(element) {
+    total += element;
+  });
+  return false;
+}
